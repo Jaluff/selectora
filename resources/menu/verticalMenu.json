@@ -1,0 +1,71 @@
+{
+  "menu": [
+    {
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons ri-bank-card-2-line",
+      "slug": "",
+      "url": "/",
+      "badge": [
+        "label-primary fs-tiny",
+        "Pro"
+      ]
+    },
+    {
+      "menuHeader": "Admionistración"
+    },
+    {
+      "name": "Empleadas",
+      "icon": "menu-icon tf-icons ri-user-5-line",
+      "slug": "empleadas",
+      "submenu": [
+        {
+          "url": "/",
+          "name": "Nueva",
+          "slug": "create-employee"
+        },
+        {
+          "url": "/admin/employees",
+          "name": "Listado",
+          "slug": "admin-employees"
+        }
+      ]
+    },
+    {
+      "name": "Misc",
+      "icon": "menu-icon tf-icons ri-instance-line",
+      "slug": "pages-misc",
+      "submenu": [
+        {
+          "url": "pages/misc-error",
+          "name": "Error",
+          "slug": "pages-misc-error",
+          "target": "_blank"
+        },
+        {
+          "url": "pages/misc-under-maintenance",
+          "name": "Under Maintenance",
+          "slug": "pages-misc-under-maintenance",
+          "target": "_blank"
+        }
+      ]
+    },
+    {
+      "menuHeader": "Components"
+    },
+    {
+      "url": "icons/icons-ri",
+      "icon": "menu-icon tf-icons ri-remixicon-line",
+      "name": "Icons",
+      "slug": "icons-ri"
+    },
+    {
+      "menuHeader": "Forms & Tables"
+    },
+    {
+      "url": "tables/basic",
+      "icon": "menu-icon tf-icons ri-table-alt-line",
+      "name": "Tables",
+      "slug": "tables-basic"
+    }
+  ]
+}
